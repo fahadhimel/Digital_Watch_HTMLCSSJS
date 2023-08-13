@@ -1,0 +1,109 @@
+main {
+  height: 98vh;
+  width: 98vw;
+  display: flex;
+  align-items: center;
+  font-family: sans-serif;
+}
+section {
+  height: 80vh;
+  width: 80vw;
+  margin: 0 auto;
+  border-radius: 20px;
+  /* box-shadow: 0 0 100px #3456; */
+}
+
+.watch {
+  text-align: center;
+}
+.header {
+  font-size: 50px;
+  font-weight: 600;
+  color: #3456;
+}
+.timedate {
+  display: flex;
+  justify-content: space-between;
+}
+.timedatemaching {
+  min-height: 40vh;
+  width: 40vw;
+  padding: 50px;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 0 0 50px #3456;
+}
+/*////////////////////////time//////////////*/
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.machingtime {
+  height: 100px;
+  min-width: 100px;
+  padding: 0 10px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(51, 68, 85, 0.29);
+}
+.item {
+  display: block;
+  justify-content: end;
+  align-items: end;
+  line-height: 0px;
+  padding-top: 50px;
+}
+.item p{
+    padding: 0;
+    line-height: 30px;
+    font-size: 12px;
+}
+.hour {
+}
+.minutes {
+}
+.seconds {
+}
+.type {
+}
+/*////////////////////////date//////////////*/
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.machingday {
+  height: 100px;
+  min-width: 100px;
+  padding: 0 20px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgba(51, 68, 85, 0.29);
+}
+.day {
+}
+.month {
+}
+.year {
+}
+
+/*///////////////////*/
+.hour,
+.minutes,
+.seconds,
+.type,
+.day,
+.tarikh,
+.month,
+.year {
+  font-size: 40px;
+  color: crimson;
+  font-weight: 600;
+}
